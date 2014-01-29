@@ -38,4 +38,4 @@ pipedrive.persons({
 
 
 
-For more information about how to use Pipedrive's API, [click here](https://developers.pipedrive.com/v1).
+For more information about how to use Pipedrive's API, consult https://developers.pipedrive.com/v1.
