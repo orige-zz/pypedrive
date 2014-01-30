@@ -26,8 +26,9 @@ class Pypedrive(object):
         except KeyError:
             raise PipedriveError('Unknown verb')
 
-        if data.get('id') is not None:
-            ids = ','.join(map(data.get['id'])) if type(data.get('id')) is list else int(data.get('id'))
+        id_ = data.get('id')
+        if id_ is not None:
+            ids = ','.join(map(str, id_)) if type(id_) in (list, tuple) else id_
             url = '{}{}/'.format(url, ids)
 
         response = the_request(url, params=params, data=data)
