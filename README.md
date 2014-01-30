@@ -1,10 +1,3 @@
-Pypedrive
-=============
-
-Just an approach with `requests` for **python-pipedrive** library by @jscott1989
-with new features.
-
-
 Installing
 -------------
 

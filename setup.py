@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pypedrive',
-    version='0.1.2',
+    version='0.1.3',
     license='MIT',
 
     author='Eduardo Orige',
@@ -18,5 +18,5 @@ setup(
     packages=['pypedrive'],
     zip_false=False,
 
-    install_requires = ['requests',]
+    install_requires=['requests']
 )
